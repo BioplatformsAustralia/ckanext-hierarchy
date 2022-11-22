@@ -15,7 +15,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # http://packaging.python.org/en/latest/tutorial.html#version
-    version='0.1',
+    version='1.2.0',
 
     description='''CKAN Organization hierarchy - templates and configuration''',
     long_description=long_description,
@@ -82,6 +82,7 @@ setup(
         [ckan.plugins]
         hierarchy_display=ckanext.hierarchy.plugin:HierarchyDisplay
         hierarchy_form=ckanext.hierarchy.plugin:HierarchyForm
+        hierarchy_group_form=ckanext.hierarchy.plugin:HierarchyGroupForm
 
         [babel.extractors]
         ckan = ckan.lib.extract:extract_ckan
